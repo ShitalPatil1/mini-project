@@ -1,0 +1,47 @@
+img{
+    float: left;
+}
+span{
+    padding: 10px;
+}
+.font{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.font:hover{
+    color: crimson;
+}
+.right{
+    float: right;
+}
+.floatClass{
+    float: right;
+}
+.btnClass{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+.btnClass.transparent{
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+} 
+.btnClass:hover{
+    color: crimson;
+    border-color: crimson;
+}
